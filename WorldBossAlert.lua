@@ -95,7 +95,7 @@ local function wbEvent()
 		if wbBroadcasted then return end
 
 		local _,_,attacker = string.find(arg1, "(.+)%'s")
-		local _,_,caster = string.find(arg1, "(.+)% begins")
+		--local _,_,caster = string.find(arg1, "(.+)% begins") -- causes erroneous behavior
 		
 		if caster then
 			wbCheck(caster,event) -- avoiding being stuck in wbBroadcasted = true state
