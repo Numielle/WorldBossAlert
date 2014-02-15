@@ -1,0 +1,9 @@
+## Interface: 11200
+## Title: WorldBossAlert
+## Notes: Simplifies scouting for world bosses.
+## Author: Numielle
+## Version: 1.0
+## Dependencies:
+## SavedVariables: WorldBossAlertDB
+
+WorldBossAlert.lua
